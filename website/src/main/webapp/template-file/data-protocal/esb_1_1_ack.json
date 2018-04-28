@@ -1,0 +1,17 @@
+{
+	"Response": {
+		"Head": {
+			"Version": "1.1",
+			"AckCode": "结果代码",
+			"AckMessage": "描述或错误信息",
+			"ContentType": "text/json",
+			"ContentEncoding": "",
+			"OrgId": "123321",
+			"AppId": "HIS",
+			"MessageId": "123221212121",
+			"SecurityPolicy": "AES",
+			"SecurityContent": ""
+		},
+		"Body": [TEMPLATE_CONTENT]
+	}
+}

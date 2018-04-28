@@ -1,0 +1,150 @@
+/* 树的通用样式，请放在此文件中 */
+
+.ztree * {
+    font-family: FontAwesome;
+}
+
+.ztree li span.button {
+    width: 18px;
+    height: 18px;
+    margin-top: 4px;
+    /*background-position: -84px -21px !important;*/
+    /*background-image: url(./img/metro.gif);*/
+}
+.ztree li a span.button {
+    background-image: none;
+}
+
+
+.ztree li span.button.bottom_open {
+    margin-top: 0;
+    background-position: -92px -32px;
+}
+
+.ztree li span.button.bottom_close {
+    margin-top: 0;
+    background-position: -74px -32px;
+}
+
+.ztree li span.button.ico_open,
+.ztree li span.button.ico_close,
+.ztree li span.button.ico_docu {
+    margin-top: 3px;
+    border-radius: 30% !important;
+    background-size: 18px 18px !important;
+}
+
+/*ztree树的图标样式*/
+.ztree li span.button.org_ico_open,
+.ztree li span.button.org_ico_close,
+.ztree li span.button.org_ico_docu {
+    margin-top: -4px;
+    margin-right: 4px;
+    background-image: url(../img/org.png);
+    border-radius: 30% !important;
+    background-size: 18px 18px !important;
+}
+
+.ztree li span.button.app_ico_open,
+.ztree li span.button.app_ico_close,
+.ztree li span.button.app_ico_docu {
+    margin-top: -4px;
+    margin-right: 4px;
+    background-image: url(../img/app.png);
+    border-radius: 30% !important;
+    background-size: 18px 18px !important;
+}
+
+.ztree li span.button.svc_ico_open,
+.ztree li span.button.svc_ico_close,
+.ztree li span.button.svc_ico_docu {
+    margin-top: -4px;
+    margin-right: 4px;
+    background-image: url(../img/svc.png);
+    border-radius: 30% !important;
+    background-size: 18px 18px !important;
+}
+
+.ztree li span.button.wait_ico_open,
+.ztree li span.button.wait_ico_close,
+.ztree li span.button.wait_ico_docu {
+    margin-top: -4px;
+    margin-right: 4px;
+    background-image: url(../img/wait.png);
+    border-radius: 30% !important;
+    background-size: 18px 18px !important;
+}
+
+.ztree li span.button.test_I_ico_open,
+.ztree li span.button.test_I_ico_close,
+.ztree li span.button.test_I_ico_docu {
+    margin-top: -4px;
+    margin-right: 4px;
+    background-image: url(../img/test_I.png);
+    border-radius: 30% !important;
+    background-size: 18px 18px !important;
+}
+.ztree li span.button.test_O_ico_open,
+.ztree li span.button.test_O_ico_close,
+.ztree li span.button.test_O_ico_docu {
+    margin-top: -4px;
+    margin-right: 4px;
+    background-image: url(../img/test_O.png);
+    border-radius: 30% !important;
+    background-size: 18px 18px !important;
+}
+
+/* 用于消息的请求与应答参数 */
+/* 普通样式 */
+.ztree li span.button.param_ico_open::before,
+.ztree li span.button.param_ico_close::before,
+.ztree li span.button.param_ico_docu::before {
+    content: "\f11a";
+    padding-top: 7px;
+    padding-left: 2px;
+    display: inline-block;
+}
+/* 必填参数样式 */
+.ztree li span.button.param_require_ico_open::before,
+.ztree li span.button.param_require_ico_close::before,
+.ztree li span.button.param_require_ico_docu::before {
+    content: "\f132";
+    padding-top: 7px;
+    padding-left: 2px;
+    display: inline-block;
+}
+/* 可重复样式 */
+.ztree li span.button.param_repeat_ico_open::before,
+.ztree li span.button.param_repeat_ico_close::before,
+.ztree li span.button.param_repeat_ico_docu::before {
+    content: "\f1b8";
+    padding-top: 7px;
+    padding-left: 2px;
+    display: inline-block;
+}
+/* 属性（XML）样式 */
+.ztree li span.button.param_attr_ico_open::before,
+.ztree li span.button.param_attr_ico_close::before,
+.ztree li span.button.param_attr_ico_docu::before {
+    content: "\f1fa";
+    padding-top: 7px;
+    padding-left: 2px;
+    display: inline-block;
+}
+
+.ztree li a {
+    height: 24px;
+    line-height: 24px;
+}
+
+.ztree li a span {
+    font-size: 12px;
+}
+
+.ztree li a.curSelectedNode {
+    height: 24px;
+}
+
+.ztree li a.tmpTargetNode_inner {
+    height: 24px;
+}

@@ -1,0 +1,631 @@
+/* 产品通用的样式，请放在此文件中 */
+
+.prject-color-default {
+    color: #e2e2e2;
+}
+.prject-color-white {
+    color: #FFFFFF;
+}
+.prject-color-normal1 {
+    color: #34495e;
+}
+.prject-color-normal2 {
+    color: #3399CC;
+}
+.prject-color-normal3 {
+    color: #996699;
+}
+.prject-color-success {
+    color: #009900;
+}
+.prject-color-failure {
+    color: #FF0000 !important;
+}
+.prject-backcolor-default {
+    background-color: #e2e2e2 !important;
+}
+.prject-backcolor-success {
+    background-color: #009900;
+}
+.prject-backcolor-failure {
+    background-color: #FF0000;
+}
+.font-size-12 {
+    font-size: 12px;
+}
+.font-size-14 {
+    font-size: 14px;
+}
+.font-title-default {
+    line-height: 34px;
+    font-size: 14px;
+}
+.font-content-default {
+    line-height: 34px;
+    font-size: 12px;
+}
+
+.project-body-container {
+    margin: 15px -5px auto -5px;
+    min-height: 450px;
+}
+
+.common-box {
+    margin: 15px 0 0 0;
+    padding-top: 15px;
+    background-color: #fff;
+}
+
+.common-table {
+    margin: 15px 0 0 0;
+    padding-top: 15px;
+    background-color: #fff;
+    min-height: 445px;
+}
+
+.margin-top-0 {
+    margin-top: 0px !important;
+}
+.margin-top-5 {
+    margin-top: 5px !important;
+}
+.margin-top-10 {
+    margin-top: 10px;
+}
+.margin-top-15 {
+    margin-top: 15px !important;
+}
+.margin-top-30 {
+    margin-top: 30px;
+}
+.margin-bottom-10 {
+    margin-bottom: 10px;
+}
+.margin-bottom-15 {
+    margin-bottom: 15px;
+}
+.margin-top-bottom-10 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.margin-top-bottom-15 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.margin-left-0 {
+    margin-left: 0px !important;
+}
+.margin-left-5 {
+    margin-left: 5px !important;
+}
+.margin-left-10 {
+    margin-left: 10px !important;
+}
+.margin-left-15 {
+    margin-left: 15px !important;
+}
+.margin-right-0 {
+    margin-right: 0px !important;
+}
+.margin-right-3 {
+    margin-right: 3px !important;
+}
+.margin-right-5 {
+    margin-right: 5px !important;
+}
+.margin-left-right-0 {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+.margin-left-right-15 {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.padding-0 {
+    padding: 0px !important;
+}
+.padding-15 {
+    padding: 15px;
+}
+.padding-top-0 {
+    padding-top: 0px;
+}
+.padding-top-10 {
+    padding-top: 10px;
+}
+.padding-top-15 {
+    padding-top: 15px;
+}
+.padding-bottom-15 {
+    padding-bottom: 15px;
+}
+.padding-top-bottom-15 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.padding-left-0 {
+    padding-left: 0px !important;
+}
+.padding-right-0 {
+    padding-right: 0px !important;
+}
+.padding-left-right-0 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.padding-left-right-15 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.border-0 {
+    border-width: 0;
+}
+.border-bottom {
+    border-bottom: solid 1px #e2e2e2;
+}
+.border-right {
+    border-right: solid 1px #e2e2e2
+}
+
+.msg-tips {
+    color: #888;
+    font-size: 12px;
+    margin-top: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.msg-stress {
+    color: #FF0000 !important;
+    font-weight: bold;
+}
+
+.showEllipsis {
+    overflow: hidden;
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.shape-link {
+    cursor: pointer;
+}
+
+.pt2 {
+    padding-top: 2px;
+}
+
+
+/* 在Bootstrap的modal中使用select2出现不能显示下拉框问题解决办法 */
+.select2-container--open {
+    z-index:9999999;
+}
+.select2-selection--single {
+    border: solid 1px #ccc;
+    line-height: 20px;
+    height: 32px !important;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+/*  以下是DataTable中的图标按钮样式 */
+.tableBtnImg {
+    line-height: 34px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+/*  以下是DataTable的样式 */
+table.dataTable {
+    margin: 0px !important;
+    width: 100% !important;
+    table-layout:fixed;
+}
+table.dataTable.no-footer {
+    border-left: 1px solid #E5E5E5;
+    border-right: 1px solid #E5E5E5;
+    border-bottom-width: 0;
+}
+.listTable > tbody > .odd {
+    background-color: #fafafa;
+    line-height: 34px;
+}
+.listTable > tbody > .even {
+    line-height: 34px;
+}
+table.dataTable thead th {
+    background-color: #f3f3f3;
+    padding: 3px;
+    /*border-bottom-width: 0;*/
+    line-height: 34px;
+    font-size: 14px;
+    border-top: 1px solid #E5E5E5;
+    border-bottom: 1px solid #E5E5E5;
+    font-weight: normal;
+}
+table.dataTable tbody td {
+    padding: 0 2px 0 2px;
+    font-size: 12px;
+    border-bottom: 1px solid #E5E5E5;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+table.dataTable tbody td:first-child,
+table.dataTable thead th:first-child {
+    text-align: left;
+    padding-left: 15px;
+}
+table.dataTable tbody .optColumn,
+table.dataTable thead .optColumn {
+    text-align: right;
+    padding-right: 15px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled,
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover,
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled:active,
+.dataTables_wrapper .dataTables_paginate .paginate_button,
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover,
+.dataTables_wrapper .dataTables_paginate .paginate_button:active {
+    padding: 0;
+    margin-left: 0;
+    border-width: 0;
+}
+
+
+
+.c_row {
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.navrow {
+    min-height: inherit;
+}
+
+.menu-btn {
+    height: 30px;
+    float: left;
+    margin: 15px 0px 0px 15px;
+    background-color: white;
+    display: table-row;
+}
+
+.bgf {
+    background-color: white;
+}
+/*start 自定义panel*/
+.x_panel {
+    width: 100%;
+    display: inline-block;
+    opacity: 1;
+    padding: 15px 15px;
+    background: white;
+    -webkit-column-break-inside: avoid;
+    transition: all 0.2s ease;
+}
+.x_title {
+    display: flow-root;
+}
+
+.x_title.btn {
+    border-radius: 3px;
+}
+
+.x_title {
+    margin-bottom: 10px;
+}
+.degrees::after, .x_content, .x_panel {
+    position: relative;
+}
+/*end panel*/
+
+/*start 自定义modal*/
+.modal-percent-30 {
+    width: 30% !important;
+}
+.modal-percent-40 {
+    width: 40% !important;
+}
+.modal-percent-50 {
+    width: 50% !important;
+}
+.modal-percent-60 {
+    width: 60% !important;
+}
+.modal-percent-70 {
+    width: 70% !important;
+}
+.modal-percent-80 {
+    width: 80% !important;
+}
+.modal-percent-90 {
+    width: 90% !important;
+}
+.modal-percent-100 {
+    width: 100% !important;
+}
+/*end modal*/
+
+/*start 流程图*/
+.steps-6 > div {
+    width: 20%;
+}
+.steps-7 > div {
+    width: 16%;
+}
+.steps-wrap {
+    width: 130px;
+    height: 32px;
+    display: inline-block;
+    line-height: 32px;
+    vertical-align: top;
+    font-size: 12px;
+    position: relative;
+}
+
+.steps-round {
+    width: 22px;
+    height: 22px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    color: #FFF;
+    line-height: 22px;
+    text-align: center;
+    float: left;
+    background-color: #28A3EF;
+    margin-top: 3px;
+}
+
+.steps-bar {
+    margin: 12px 5px 0px 25px;
+    width: 100px;
+    height: 6px;
+    vertical-align: middle;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background-color: #28A3EF;
+}
+
+.step-icon {
+    margin: -10px 0px 0px 15px;
+    vertical-align: middle;
+    color: #28A3EF;
+}
+
+.steps-round-auto {
+    display: table;
+    width: 100%;
+}
+.steps-round-auto > div {
+    display: table-cell;
+}
+.steps-round-auto > div .steps-bar {
+    width: auto;
+}
+/*end 流程图*/
+
+/*start 琚晨mytable样式*/
+.mytable {
+    width: 100%;
+    font-size: 12px;
+    text-align: right;
+    border: 1px solid #E5E5E5;
+}
+
+.mytable > thead > tr {
+    line-height: 34px;
+    margin-top: 5px;
+    background-color: #f5f5f5;
+    border-bottom-width: 0px !important;
+    font-size: 14px;
+}
+.mytable > thead > tr>td {
+    color:#333;
+}
+.mytable th.numeric{
+    text-align: left;
+}
+.mytable > thead > tr > th:first-child {
+    text-align: left;
+    padding-left: 15px;
+}
+.mytable th.lastChild {
+    border-right: 1px solid #E5E5E5;
+}
+
+.mytable tr>td {
+    text-align: left;
+}
+.mytable tr>td:first-child {
+    padding-left:15px;
+}
+table.dataTable thead td {
+    border-bottom-width: 0px !important;
+}
+
+.mytable > tbody > tr {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    line-height: 34px;
+}
+
+.mytable > tbody > tr > td:last-child {
+    border-right: 1px solid #eee;
+}
+
+.mytable > tbody > .even {
+    background-color: #fafafa;
+    line-height: 34px;
+}
+
+.mytable tr th {
+    text-align: center;
+    color: #333;
+    border-bottom-width: 0px !important;
+}
+
+.mytable tr td {
+    color: #666666;
+}
+/*end mytable*/
+
+
+/* 徽章样式【开始】 */
+.badge-tree {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+    margin-bottom: 3px;
+    height: 16px;
+    line-height: 16px !important;
+    margin-right: 0 !important;
+}
+/* 徽章样式【结束】 */
+
+/*start 流程图*/
+.steps-6 > div {
+    width: 20%;
+}
+.steps-7 > div {
+    width: 16%;
+}
+.steps-wrap {
+    width: 130px;
+    height: 32px;
+    display: inline-block;
+    line-height: 32px;
+    vertical-align: top;
+    font-size: 12px;
+    position: relative;
+}
+
+.steps-round {
+    width: 22px;
+    height: 22px;
+    -webkit-border-radius: 15px !important;
+    -moz-border-radius: 15px;
+    border-radius: 15px !important;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    color: #FFF;
+    line-height: 22px;
+    text-align: center;
+    float: left;
+    background-color: #28A3EF;
+    margin-top: 3px;
+}
+
+.steps-bar {
+    margin: 12px 5px 0px 25px;
+    width: 100px;
+    height: 6px;
+    vertical-align: middle;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background-color: #28A3EF;
+}
+
+.step-icon {
+    margin: -11px 0px 0px 15px;
+    vertical-align: middle;
+    color: #28A3EF;
+}
+
+.steps-label {
+    margin-left: -43px;
+    margin-top: 12px;
+    line-height: 20px;
+}
+
+.steps-round-auto {
+    display: table;
+    width: 100%;
+}
+.steps-round-auto > div {
+    display: table-cell;
+}
+.steps-round-auto > div .steps-bar {
+    width: auto;
+}
+/*end 流程图*/
+
+/*start 自定义panel*/
+.x_panel {
+    width: 100%;
+    display: inline-block;
+    opacity: 1;
+    padding: 0px 15px 0px 15px;
+    background: white;
+    -webkit-column-break-inside: avoid;
+    transition: all 0.2s ease;
+}
+.x_header {
+    margin-left: -15px;
+    margin-right: -15px;
+    min-height: 25px;
+}
+
+.x_title {
+    display: flow-root;
+    margin-bottom: 5px;
+}
+
+.x_title.btn {
+    border-radius: 3px;
+}
+
+.x_title_without-header {
+    display: flow-root;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.degrees::after, .x_content, .x_panel {
+    position: relative;
+}
+/*end panel*/
+
+/*Start 概览界面 三个Top5列表样式*/
+.mt-element-list {
+    background: white;
+}
+.mt-list-head.list-simple.font-white.green-haze {
+    background-color: #44b6ae;
+    color: #FFFFFF;
+}
+.mt-list-head.list-simple.font-white.yellow-warn {
+    background-color: #FEC20E;
+    color: #FFFFFF;
+}
+.mt-element-list .list-simple.mt-list-head .list-date {
+    width: 90px !important;
+    text-align: right;
+}
+.mt-element-top-number {
+    font-size: 12px;
+    border-radius: 50% !important;
+    display: inline-block;
+    margin: auto;
+    margin-bottom: 5px;
+    border: 1px solid;
+    position: relative;
+    z-index: 5;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+}
+ .mt-list-item > .list-datetime {
+     width: 80px !important;
+     white-space:nowrap;
+     overflow:hidden;
+     text-overflow:ellipsis;
+ }
+/*End 概览界面 三个Top5列表样式*/

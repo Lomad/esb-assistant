@@ -1,0 +1,11 @@
+{
+  "collectors": [
+    {
+      "collectorName": "SystemInfo"
+    },
+    {
+      "collectorName": "SystemDynamic",
+      "interval": 10000
+    }
+  ]
+}

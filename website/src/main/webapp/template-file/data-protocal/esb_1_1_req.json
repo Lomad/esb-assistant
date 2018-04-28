@@ -1,0 +1,21 @@
+{
+	"Request": {
+		"Head": {
+			"Version":"1.1",
+			"TransferType":"Sync",
+			"Callback":"",
+			"TranCode":"[TranCode]",
+			"LicKey":"",
+			"ContentType":"text/json",
+			"ContentEncoding":"",
+			"OrgId":"[OrgId]",
+			"AppId":"[AppId]",
+			"MessageId":"[MessageId]",
+			"AppType":"PC",
+			"SecurityPolicy":"",
+			"SecurityContent":"",
+			"Timestamp":"[Timestamp]"
+		},
+		"Body": [TEMPLATE_CONTENT]
+	}
+}

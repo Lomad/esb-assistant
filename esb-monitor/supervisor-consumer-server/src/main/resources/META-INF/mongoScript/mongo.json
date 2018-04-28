@@ -1,0 +1,76 @@
+{
+    "configs":[
+        {
+            "code":"0001",
+            "name":"回收周期",
+            "value":"180",
+            "desp":"单位：天",
+            "type":1,
+            "regex":"",
+            "visible":1
+        },
+        {
+            "code":"0002",
+            "name":"历史调用总数",
+            "value":"0",
+            "desp":"每天统计一次历史的调用总数",
+            "type":0,
+            "regex":"",
+            "visible":0
+        },
+        {
+            "code":"0003",
+            "name":"平台运行时间",
+            "value":"",
+            "desp":"平台运行时间",
+            "type":0,
+            "regex":"",
+            "visible":0
+        },
+        {
+            "code":"0004",
+            "name":"ODR数据库连接",
+            "value":"",
+            "desp":"格式：数据库类型,ip,port,库名,账号,密码，即用逗号分割，其中对于Sqlserver数据库，ip可以包含实例名，示例：SqlServer,127.0.0.1,8080,EMPI,admin,123123，SqlServer,127.0.0.1TEST,,EMPI,admin,123123",
+            "type":9,
+            "regex":"",
+            "visible":1
+        },
+        {
+            "code":"0008",
+            "name":"CDR数据库连接",
+            "value":"",
+            "desp":"格式：数据库类型,ip,port,库名,账号,密码，即用逗号分割，其中对于Sqlserver数据库，ip可以包含实例名，示例：SqlServer,127.0.0.1,8080,EMPI,admin,123123，SqlServer,127.0.0.1TEST,,EMPI,admin,123123",
+            "type":9,
+            "regex":"",
+            "visible":1
+        },
+        {
+            "code":"0009",
+            "name":"EMPI数据库连接",
+            "value":"",
+            "desp":"格式：数据库类型,ip,port,库名,账号,密码，即用逗号分割，其中对于Sqlserver数据库，ip可以包含实例名，示例：SqlServer,127.0.0.1,8080,EMPI,admin,123123，SqlServer,127.0.0.1TEST,,EMPI,admin,123123",
+            "type":9,
+            "regex":"",
+            "visible":1
+        },
+        {
+            "code":"0010",
+            "name":"MDM数据库连接",
+            "value":"",
+            "desp":"格式：数据库类型,ip,port,库名,账号,密码，即用逗号分割，其中对于Sqlserver数据库，ip可以包含实例名，示例：SqlServer,127.0.0.1,8080,EMPI,admin,123123，SqlServer,127.0.0.1TEST,,EMPI,admin,123123",
+            "type":9,
+            "regex":"",
+            "visible":1
+        },
+        {
+            "code" : "0012",
+            "name" : "服务管理地址",
+            "value" : "http://120.0.0.1:9090/service",
+            "desp" : "",
+            "type" : 1,
+            "regex" : "",
+            "visible" : 1
+        }
+    ]
+}

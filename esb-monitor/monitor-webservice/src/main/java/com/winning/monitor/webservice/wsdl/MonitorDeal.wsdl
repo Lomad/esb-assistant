@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://entry.webservice.monitor.winning.com" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:impl="http://entry.webservice.monitor.winning.com" xmlns:intf="http://entry.webservice.monitor.winning.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!--WSDL created by Apache Axis version: 1.4
+Built on Apr 22, 2006 (06:55:48 PDT)-->
+ <wsdl:types>
+  <schema elementFormDefault="qualified" targetNamespace="http://entry.webservice.monitor.winning.com" xmlns="http://www.w3.org/2001/XMLSchema">
+   <element name="from" type="xsd:string"/>
+   <element name="monitorLoggingReturn" type="xsd:string"/>
+  </schema>
+ </wsdl:types>
+
+   <wsdl:message name="monitorLoggingResponse">
+
+      <wsdl:part element="impl:monitorLoggingReturn" name="monitorLoggingReturn"/>
+
+   </wsdl:message>
+
+   <wsdl:message name="monitorLoggingRequest">
+
+      <wsdl:part element="impl:from" name="from"/>
+
+   </wsdl:message>
+
+   <wsdl:portType name="MonitorDeal">
+
+      <wsdl:operation name="monitorLogging" parameterOrder="from">
+
+         <wsdl:input message="impl:monitorLoggingRequest" name="monitorLoggingRequest"/>
+
+         <wsdl:output message="impl:monitorLoggingResponse" name="monitorLoggingResponse"/>
+
+      </wsdl:operation>
+
+   </wsdl:portType>
+
+   <wsdl:binding name="MonitorDealSoapBinding" type="impl:MonitorDeal">
+
+      <wsdlsoap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+      <wsdl:operation name="monitorLogging">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="monitorLoggingRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="monitorLoggingResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:binding>
+
+   <wsdl:service name="MonitorDealService">
+
+      <wsdl:port binding="impl:MonitorDealSoapBinding" name="MonitorDeal">
+
+         <wsdlsoap:address location="http://localhost:8080//services/com/winning/monitor/webservice/entry/MonitorDeal"/>
+
+      </wsdl:port>
+
+   </wsdl:service>
+
+</wsdl:definitions>

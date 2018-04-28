@@ -1,0 +1,18 @@
+<Response>
+    <Head>
+        <Version>1.1</Version>
+        <AckCode>结果代码</AckCode>
+        <AckMessage>描述信息或错误信息</AckMessage>
+        <ContentType>text/xml</ContentType>
+        <ContentEncoding></ContentEncoding>
+        <OrgId>[OrgId]</OrgId>
+        <AppId>[AppId]</AppId>
+        <MessageId>[MessageId]</MessageId>
+        <SecurityPolicy></SecurityPolicy>
+        <SecurityContent></SecurityContent>
+        <Timestamp>[Timestamp]</Timestamp>
+    </Head>
+    <Body>
+        <![CDATA[[TEMPLATE_CONTENT]]]>
+    </Body>
+</Response>

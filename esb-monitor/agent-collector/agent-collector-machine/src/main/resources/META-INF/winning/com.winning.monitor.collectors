@@ -1,0 +1,2 @@
+SystemInfo=com.winning.monitor.agent.collector.machine.factory.SystemInfoICollectExcutorCreator
+SystemDynamic=com.winning.monitor.agent.collector.machine.factory.SystemDynamicICollectExcutorCreator

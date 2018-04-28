@@ -1,0 +1,21 @@
+<Request>
+  <Head>
+    <Version>1.1</Version>
+    <TransferType>Sync</TransferType>
+    <Callback></Callback>
+    <TranCode>[TranCode]</TranCode>
+    <LicKey></LicKey>
+    <ContentType>text/xml</ContentType>
+    <ContentEncoding></ContentEncoding>
+    <OrgId>[OrgId]</OrgId>
+    <AppId>[AppId]</AppId>
+    <MessageId>[MessageId]</MessageId>
+    <AppType>PC</AppType>
+    <SecurityPolicy></SecurityPolicy>
+    <SecurityContent></SecurityContent>
+    <Timestamp>[Timestamp]</Timestamp>
+  </Head>
+  <Body>
+    <![CDATA[[TEMPLATE_CONTENT]]]>
+  </Body>
+</Request>

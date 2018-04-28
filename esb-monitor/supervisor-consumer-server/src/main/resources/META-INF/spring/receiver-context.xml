@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <bean class="com.winning.monitor.supervisor.receiver.NettyTcpReceiver"
+          init-method="start" destroy-method="shutdown">
+        <constructor-arg value="18880"/>
+        <constructor-arg ref="defaultMessageHandlerManager"/>
+            <!--<bean class="com.winning.monitor.supervisor.core.message.handle.DefaultMessageHandlerManager"/>
+        </constructor-arg>-->
+    </bean>
+
+    <bean id="defaultMessageHandlerManager" class="com.winning.monitor.supervisor.core.message.handle.DefaultMessageHandlerManager"/>
+
+    <bean class="com.winning.monitor.supervisor.core.period.PeriodManager"
+          init-method="init">
+        <constructor-arg value="3600000"/>
+    </bean>
+
+</beans>
